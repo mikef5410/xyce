@@ -1,0 +1,6 @@
+[submodule "Trilinos"]
+	path = Trilinos
+	url = https://github.com/trilinos/Trilinos.git
+[submodule "Xyce"]
+	path = Xyce
+	url = https://github.com/Xyce/Xyce.git
