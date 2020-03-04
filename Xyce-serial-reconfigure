@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+XYCE=/projects/xyce/Xyce
+export ARCHDIR=/opt/xyce/serial
+export CXXFLAGS="-O3 -std=c++11"
+export CPPFLAGS="-I/usr/include/suitesparse"
+
+$XYCE/configure --enable-admsmodels --enable-nonfree --enable-op_start --enable-fft  --enable-fftw --enable-hdf5  --enable-dependency-tracking --enable-adms_sensitivities --enable-xyce-shareable --enable-user-plugin --enable-thread-safe-logging --enable-modspec
